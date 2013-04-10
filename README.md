@@ -1,4 +1,4 @@
-[JKLB Starter](http://dev.jklb.co/JKLB-Starter) [![Build Status](https://travis-ci.org/jakeleboeuf/dnw.png)](https://travis-ci.org/jakeleboeuf/JKLB-Starter)
+[JKLB Starter](http://st.jklb.co) [![Build Status](https://travis-ci.org/jakeleboeuf/JKLB-Starter.png)](https://travis-ci.org/jakeleboeuf/JKLB-Starter)
 =================
 
 # Description #
