@@ -1,0 +1,82 @@
+// Default font
+@mixin typeface {
+    // From: Better Helvetica Font Stack http://j.mp/9t6O6Z
+    font-family: $font_main;
+}
+
+@mixin clearfix() {
+    // http://nicolasgallagher.com/micro-clearfix-hack/
+    // USAGE: @include clearfix();
+    & {
+        *zoom: 1;
+    }
+    &:before,
+    &:after {
+        content: "";
+        display: table;
+    }
+    &:after {
+        clear: both;
+    }
+}
+
+
+
+// Jake's Mixins and Functions
+/* ************************************************** */
+
+// Color magic
+//////////////
+
+/* Complementary Colors */
+$complement: $primaryColor;
+$complement1: adjust-hue($complement, 180);
+$complement2: darken(adjust-hue($complement, 180), 5%);
+$complement1_light: lighten($complement, 15%);
+$complement2_light: lighten($complement, 30%);
+
+/* Subtle Color Scheme */
+$subtle: $primaryColor;
+$subtle_light: lighten(adjust-hue($subtle, 5), 10%);
+$subtle_lighter: lighten(adjust-hue($subtle, 10), 20%);
+$subtle_dark: darken(adjust-hue($subtle, -5), 10%);
+$subtle_darker: darken(adjust-hue($subtle, -10), 20%);
+
+// End color magic
+
+
+// Custom Functions
+///////////////////
+
+@function black($opacity){
+    @return rgba(0,0,0,$opacity);
+} // Call this using: color:black(0.9);
+
+@function white($opacity){
+    @return rgba(255,255,255,$opacity);
+} // Call this using: color:white(0.9);
+
+// End Custom Functions
+
+
+// Custom Mixins
+///////////////////
+
+@mixin box-emboss($opacity, $opacity2){
+    box-shadow:white($opacity) 0 1px 0, inset black($opacity2) 0 1px 0;
+} // Call this using: @include box-emboss(0.8, 0.05);
+
+@mixin letterpress($opacity){
+    text-shadow:white($opacity) 0 1px 0;
+} // Call this using: @include letterpress(0.8);
+
+@mixin hide-text($url, $width, $height){
+    overflow:hidden;
+    text-indent:-9000px;
+    display:block;
+		background:url($url) no-repeat;
+		width: $width;
+		height: $height;
+} // Call this using: @include hide-text('../img/logo.png', 140px, 100px );
+
+// End Custom Mixins

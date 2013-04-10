@@ -1,0 +1,51 @@
+// jklb styles
+
+body {
+	@include typeface;
+}
+.clearfix {
+	clear:both;
+	@include clearfix();
+}
+#container {
+	width:800px;
+}
+#main div{
+	display:block;
+	width:100px;
+	height:100px;
+	float:left;
+}
+.com{
+	background: $complement;
+}
+.com1{
+	background: $complement1;
+}
+
+.com2{
+	background: $complement2;
+}
+.com3{
+	background: $complement1_light;
+}
+.com4{
+	background: $complement2_light;
+}
+
+.lit{
+	background: $subtle;
+}
+.lit1{
+	background: $subtle_light;
+}
+
+.lit2{
+	background: $subtle_lighter;
+}
+.lit3{
+	background: $subtle_dark;
+}
+.lit4{
+	background: $subtle_darker;
+}
