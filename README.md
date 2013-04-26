@@ -22,3 +22,4 @@ Images are stored in the /img. You can create additional folders for the fancy C
 * <a href="http://compass-style.org/">Compass Framework</a>
 * <a href="http://html5boilerplate.com/">HTML5 Boilerplate</a>
 * <a href="http://necolas.github.com/normalize.css/">normalize.css</a>
+* <a href="http://about.travis-ci.org/docs/">travis.ci</a>
