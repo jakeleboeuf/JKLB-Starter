@@ -20,17 +20,6 @@
       "outputAbbreviatedPath" : "No Output Path",
       "fileType" : 2048
     },
-    "\/img\/LOZA_MALEOMBHO_preview.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/LOZA_MALEOMBHO_preview.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/LOZA_MALEOMBHO_preview.jpg",
-      "initialSize" : 203373,
-      "fileType" : 4096
-    },
     "\/compass\/sass\/partials\/_vars.scss" : {
       "ignoreWasSetByUser" : 0,
       "ignore" : 1,
@@ -72,17 +61,6 @@
       "outputAbbreviatedPath" : "\/css\/_ie.css",
       "fileType" : 4,
       "debugStyle" : 0
-    },
-    "\/img\/LOZA_MALEOMBHO.jpg" : {
-      "ignoreWasSetByUser" : 0,
-      "ignore" : 0,
-      "hidden" : 0,
-      "outputPathIsSetByUser" : 0,
-      "inputAbbreviatedPath" : "\/img\/LOZA_MALEOMBHO.jpg",
-      "processed" : 0,
-      "outputAbbreviatedPath" : "\/img\/LOZA_MALEOMBHO.jpg",
-      "initialSize" : 630319,
-      "fileType" : 4096
     },
     "\/js\/libs\/modernizr-2.6.2.min.js" : {
       "ignoreWasSetByUser" : 0,
